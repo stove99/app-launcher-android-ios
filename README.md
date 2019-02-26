@@ -1,11 +1,12 @@
 # 설치
-> npm i app-launcher-android-ios
+    npm i app-launcher-android-ios
 
 # 사용법
 ```javascript
     import * as launcher from 'app-launcher-android-ios';
 
-    launchExternalApp(iosSchemaName: string, androidPackageName: string, httpUrl: string, httpUrliOS: string, httpUrlAndroid: string) {
+    launchExternalApp(iosSchemaName: string, androidPackageName: string, httpUrl: string, 
+                        httpUrliOS: string, httpUrlAndroid: string) {
         let app: string;
 
         if (this.isIos()) {
